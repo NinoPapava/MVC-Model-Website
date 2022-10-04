@@ -1,0 +1,111 @@
+#body {
+    padding: 0px 50px;
+}
+
+div.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.actions {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    padding: 20px 0px;
+    width: 900px;
+    transform: translate(80px, 5px);
+
+}
+
+button:first-of-type {
+    margin-right: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 10px;
+    font-weight: bold;
+    box-shadow: 2px 5px #404040;
+    background-color: #696969;
+    color: white;
+    transform: translate(-20px, 12px);
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+    padding: 50px 0px;
+}
+
+main#products {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+div.product {
+    flex: 1 1 20%;
+    padding: 5px;
+    margin: 15px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+}
+
+label {
+    font-size: 19px;
+    font-weight: 500;
+    width: 200px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 19px;
+    background-color: #F5F5F5;
+}
+
+select {
+    width: 208px;
+    height: 19px;
+    background-color: #F5F5F5;
+}
+
+.info, .success, .error {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+h1{
+    transform: translate(80px, 12px);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+header{
+    color: white;
+    cursor: pointer;
+}
+body{
+    cursor: pointer;
+}
